@@ -21,7 +21,7 @@ export default function TemporaryDrawer() {
           <a href='./'>
           <p className='link'>Compare</p>
           </a>
-          <a href='./'>
+          <a href='./'>c
           <p className='link'>Watchlist</p>
           </a>
           <a href='./'>
