@@ -10,7 +10,7 @@ export default function TemporaryDrawer() {
     return (
         <div>
             <IconButton onClick={()=> setOpen(true)}><MenuRoundedIcon/></IconButton>
-            <Drawer anchor={"right"} open={setOpen(true)}
+            <Drawer anchor={"right"} open={open}
                 onClose={()=> setOpen(false)}
             >
             </Drawer>
@@ -21,7 +21,7 @@ export default function TemporaryDrawer() {
           <a href='./'>
           <p className='link'>Compare</p>
           </a>
-          <a href='./'>c
+          <a href='./'>
           <p className='link'>Watchlist</p>
           </a>
           <a href='./'>
@@ -29,7 +29,6 @@ export default function TemporaryDrawer() {
           </a>
 
       </div>
-            <h1>Hii</h1>
             
        </div>
     );

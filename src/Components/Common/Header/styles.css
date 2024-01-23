@@ -3,18 +3,20 @@
     top: 0;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 1rem;
+    padding: 1rem 1rem; 
     background-color: var(--black);
     z-index: 100;
 }
 
 .logo{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+
 }
  
 .links{
+
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
     align-items: center;
     gap: 1.5rem;
     
@@ -28,7 +30,7 @@
 
 .link:hover{
     color: var(--white);
-    transition: all 0.3s ;
+    transition: all 0.3s;
 }
 
 .mobile-drawer{
