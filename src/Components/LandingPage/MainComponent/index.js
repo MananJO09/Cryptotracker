@@ -48,7 +48,7 @@ function MainComponent() {
           repeat : Infinity,
          }}
          />
-        <img src={gradient} className='gradient' />
+        <img src={gradient} className='gradient' alt='' />
       </div>
     </div>
   )
