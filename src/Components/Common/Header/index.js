@@ -22,15 +22,8 @@ const Header = () => {
           <a href='#'>
           <Button 
           text={"Dashboard"}
-          outlined={true}
           onClick={() => console.log("btn clicked!")}
           />
-          <Button 
-          text={"Share"}
-          outlined={true}
-          onClick={() => console.log("btn clicked!")}
-          />
-          
           </a>
 
       </div>
