@@ -91,6 +91,7 @@
     }
     .gradient{
         left: 25%;
+        min-width: 300px;
     }
     
     .left-component{
