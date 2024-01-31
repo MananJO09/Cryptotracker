@@ -13,7 +13,6 @@ export default function TemporaryDrawer() {
             <Drawer anchor={"right"} open={open}
                 onClose={() => setOpen(false)}
             >
-            </Drawer>
             <div className='drawer-div'>
                 <a href='./'>
                     <p className='link'>Home</p>
@@ -29,6 +28,7 @@ export default function TemporaryDrawer() {
                 </a>
 
             </div>
+            </Drawer>
 
         </div>
     );
