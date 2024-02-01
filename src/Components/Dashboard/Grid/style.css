@@ -3,8 +3,7 @@
     height: 300px;
     background-color: var(--grey);
     border: 1px solid var(--darkgrey);
-    border-radius: 1rem;
-    
+    border-radius: 1rem; 
 }
 
 .info-flex{

@@ -13,14 +13,13 @@ export default function TabsComponent({ coins }) {
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
-    
+   
     const theme = createTheme({
         palette: {
             primary:{
                 main: "#3a80e9",
             },
         },
-    
     });
 
     const style = {
@@ -41,7 +40,7 @@ export default function TabsComponent({ coins }) {
                     <div className='grid-flex'>
                         {coins.map((item, i) => {
                             return (
-                               <Grid coin={coins} key={i} />
+                               <Grid coin={item} key={i} />
                             );
                         })}
                     </div>
@@ -51,7 +50,7 @@ export default function TabsComponent({ coins }) {
                         {coins.map((item, i) => {
                             return (
                                 <p key={i}>
-                                    {i + 1}.{item.id}
+                                    {i + 1} {item.id}
                                 </p>
                             );
                         })}
