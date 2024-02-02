@@ -12,7 +12,7 @@ function WatchlistPage() {
 
   useEffect(() => {
     getData();
-  }, );
+  },);
 
   const getData = async () => {
     setLoading(true);
