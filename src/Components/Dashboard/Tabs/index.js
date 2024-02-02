@@ -4,7 +4,7 @@ import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import { ThemeProvider, createTheme } from '@mui/material';
-import Grid from '../Grid';
+import Grid from '../Grid/grid';
 import "./styles.css"
 
 export default function TabsComponent({ coins }) {

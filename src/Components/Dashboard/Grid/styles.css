@@ -4,7 +4,7 @@
   background-color: var(--darkgrey);
   border-radius: 1rem;
   padding: 2rem;
-  border: 2px solid var(--darkgrey);
+  border: 2px solid var(--grey);
   cursor: pointer;
 }
 
